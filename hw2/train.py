@@ -4,7 +4,6 @@ import pickle
 
 import mlflow
 
-# mlflow.autolog(log_models=False, exclusive=True)
 mlflow.sklearn.autolog()
 
 from sklearn.ensemble import RandomForestRegressor
